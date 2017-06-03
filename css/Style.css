@@ -1,0 +1,210 @@
+body{
+    background: #D3D3D3	;
+    margin: 0px;
+}
+
+#header{
+    position: relative;
+}
+/*Верхушка хедера*/
+.top-header{
+    font: 12px Arial, sans-serif;
+    background: #000;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    color: white;
+    position: relative;
+    justify-content: space-around;
+}
+.img-top{
+    margin-right: 5px;
+}
+.addres{
+    display: flex;
+    align-items: center;
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.social {
+    float: right;
+    font-size: 0;
+}
+
+.social .item {
+    display: inline-block;
+    vertical-align: top;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(57, 181, 74, .8);
+    transition: 0.3s ease;
+}
+
+.social .item.tw {
+    background-image: url('../img/svg/tw.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    transition: 0.3s ease;
+}
+
+.social .item.tw:hover {
+    background-image: url('../img/svg/tw_w.svg');
+    background-color: rgba(57, 181, 74, 1);
+}
+
+.social .item.fb {
+    background-image: url('../img/svg/fb.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    transition: 0.3s ease;
+}
+
+.social .item.fb:hover {
+    background-image: url('../img/svg/fb_w.svg');
+    background-color: rgba(57, 181, 74, 1);
+}
+
+.social .item.gplus {
+    background-image: url('../img/svg/gplus.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    transition: 0.3s ease;
+}
+
+.social .item.gplus:hover {
+    background-image: url('../img/svg/gplus_w.svg');
+    background-color: rgba(57, 181, 74, 1);
+}
+
+.social .item.in {
+    background-image: url('../img/svg/in.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    transition: 0.3s ease;
+}
+
+.social .item.in:hover {
+    background-image: url('../img/svg/in_w.svg');
+    background-color: rgba(57, 181, 74, 1);
+}
+
+.social .item.gplus {
+    background-image: url('../img/svg/gplus.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    transition: 0.3s ease;
+}
+
+.social .item.in {
+    background-image: url('../img/svg/in.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    transition: 0.3s ease;
+}
+/*Навигация хедера*/
+
+.menu{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+.nav{
+    float: right;
+    display: flex;
+    align-items: center;
+}
+.nav li {
+    display: inline;
+    vertical-align: top;
+    height: 16px;
+    border-right: 1px solid #6f6f6f;
+    padding: 0px 10px;
+}
+.nav-menu{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+.nav-menu:hover{
+    color: rgba(57, 181, 74, 1);
+    text-decoration: none;
+}
+
+
+
+/*слайдер*/
+.slider{
+    background-image: url("../img/slider/Shape-1.jpg");
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: baseline;
+
+}
+.img-book{
+    padding:10px 450px;
+}
+.slider h1, p{
+    align-items: baseline;
+    color: white;
+    text-align: center;
+}
+.table{
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 5px;
+}
+.table a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Контент*/
+.content{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    color: black;
+}
+.books {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    background-color: yellow;
+}
+.onas{
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: #6f6f6f;
+    margin: 80px
+}
+.onas p{
+    color: black;
+}
+
+
+
+
+.book img{
+    width: 140px;
+    height: 200px;
+}
